@@ -5,7 +5,7 @@
 Never check a test early and stop it just because it looks like it's winning (peeking problem). Ensure both variants reached the required sample size calculated by the statistical power formula before drawing conclusions.
 
 ### 2. Is the result practically significant, or just statistically significant?
-With a large enough sample size, even a $0.01\%$ difference can be statistically significant ($p < 0.05$). Ask: Does the size of this effect actually justify the engineering overhead and code complexity of deploying this feature?
+With a large enough sample size, even a $0.01\%$ difference can be statistically significant ($p < 0.05$). Ask: Does the size of this effect actually justify the engineering overhead and code complexity of deploying this feature? (The p-value answers the question: "If my new feature actually did absolutely nothing, what is the probability that I would see a success difference this large just by pure luck?")
 
 ### 3. Did we analyze user cohort breakdowns?
 A winning treatment overall might hide toxic regressions in specific groups. Always slice the data by critical user segments (e.g., new vs. returning users, specific payment methods, mobile vs. desktop) to ensure it isn't hurting a core cohort.
