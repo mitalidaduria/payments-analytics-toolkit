@@ -1,6 +1,5 @@
 # Payments-analytics-toolkit
 
-# Payments-analytics-toolkit
 
 Modular Python framework for transaction analytics, churn modeling, and payment funnel metrics.
 
